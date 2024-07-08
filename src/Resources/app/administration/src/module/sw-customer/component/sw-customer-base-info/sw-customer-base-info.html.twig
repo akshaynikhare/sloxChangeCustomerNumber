@@ -1,0 +1,14 @@
+{% block sw_customer_base_metadata_customer_number %}
+	<dl class="sw-description-list" style="grid-template-columns: 1fr;">
+		<dt class="sw-customer-base-info__label">
+			{{ $tc('sw-customer.baseInfo.labelCustomerNumber') }}
+		</dt>
+		<dd v-if="!customerEditMode" class="sw-customer-base__label-customer-number">
+			{{ customer.customerNumber }}
+		</dd>
+		<dd v-else class="sw-customer-base__label-customer-number">
+			<sw-text-field v-model="customer.customerNumber" :placeholder="customer.customerNumber"/>
+			<input type="hidden" name="oldCustomerNumber" :value="oldCustomerNumber">
+		</dd>
+	</dl>
+{% endblock %}

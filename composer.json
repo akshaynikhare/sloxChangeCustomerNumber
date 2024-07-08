@@ -1,0 +1,33 @@
+{
+    "name": "cadnative/slox-change-customer-number",
+    "description": "Change Customer Number in Admin",
+    "version": "0.0.1",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "sloxchangecustomernumber\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "cadnative / Akshay Nikhare",
+        "email": "info@cadnative.com",
+        "homepage": "https://cadnative.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "sloxchangecustomernumber\\sloxchangecustomernumber",
+        "plugin-icon": "icon.png",
+        "label": {
+            "de-DE": "Cadnative - Change Customer Number in Admin",
+            "en-GB": "Cadnative - Change Customer Number in Admin"
+        },
+        "description": {
+            "en-GB": "developed by cadnative / Akshay Nikhare",
+            "de-DE": "entwickelt von cadnative / Akshay Nikhare"
+        }
+    }
+}

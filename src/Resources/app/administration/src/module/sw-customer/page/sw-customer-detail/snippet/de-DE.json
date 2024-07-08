@@ -1,0 +1,7 @@
+{
+    "sw-customer": {
+        "baseInfo":{
+            "customerNumberNotAvailable":"Die Kundennummer ist bereits im System vorhanden; bitte wählen Sie eine andere."
+        }
+    }
+}
